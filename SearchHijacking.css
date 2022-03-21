@@ -1,0 +1,175 @@
+header {
+    margin: auto;
+    color: white;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(78, 39, 137, 1) 31%,
+      rgba(0, 15, 255, 1) 100%
+    );
+    max-width: 95%;
+  }
+  .smedia img {
+    width: 100px;
+    height: 100px;
+  }
+  main {
+    max-width: 95%;
+    background-image: url(https://www.messagemagazine.com/wp-content/uploads/2021/04/Darkness-scaled.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+  }
+
+  .texplanation {
+    color: white;
+  }
+
+  .picxplanation img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px, auto;
+  }
+
+  .google {
+    grid-column: 1;
+    grid-row: 1;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    height: 175px;
+    width: 175px;
+    /* right shadow, left shadow, glow, color */
+  }
+  .google img {
+    height: 100px;
+    width: 100px;
+    margin: 5% 25% 5% 25%;
+  }
+  .google:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgb(189, 145, 255);
+  }
+
+  .reddit {
+    grid-column: 2;
+    grid-row: 1;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    height: 175px;
+    width: 175px;
+
+    /* right shadow, left shadow, glow, color */
+  }
+  .reddit img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 5% 25% 5% 25%;
+  }
+  .reddit:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgb(189, 145, 255);
+  }
+
+  .duckduckgo {
+    grid-column: 3;
+    grid-row: 1;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    height: 175px;
+    width: 175px;
+  }
+  .duckduckgo img {
+    height: 100px;
+    width: 100px;
+    margin: 5% 25% 5% 25%;
+  }
+  .duckduckgo:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgb(189, 145, 255);
+  }
+
+  .youtube {
+    grid-column: 1;
+    grid-row: 2;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    height: 175px;
+    width: 175px;
+  }
+  .youtube img {
+    height: 100px;
+    width: 100px;
+    margin: 5% 25% 5% 25%;
+  }
+  .youtube:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgb(189, 145, 255);
+  }
+
+  .stackoverflow {
+    grid-column: 2;
+    grid-row: 2;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    height: 175px;
+    width: 175px;
+  }
+  .stackoverflow img {
+    height: 100px;
+    width: 100px;
+    margin: 5% 25% 5% 25%;
+  }
+  .stackoverflow:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgb(189, 145, 255);
+  }
+
+  .bing {
+    grid-column: 3;
+    grid-row: 2;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    height: 175px;
+    width: 175px;
+  }
+  .bing img {
+    height: 100px;
+    width: 100px;
+    margin: 5% 25% 5% 25%;
+  }
+  .bing:hover {
+    height: 200px;
+    width: 200px;
+    box-shadow: 3px 3px 10px rgb(189, 145, 255);
+  }

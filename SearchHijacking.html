@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="SearchHijacking.css" />
+    <title>Document</title>
+
+    <style></style>
+  </head>
+  <header id="head">
+    <h1>Hijacking Search Engines</h1>
+
+    <div class="smedia">
+      <img src="/assets/Facebook Logo.jpg" alt="" />
+      <img src="/assets/TwitterLogo.png" alt="" />
+      <img src="/assets/YoutubeLogo.png" alt="" />
+    </div>
+  </header>
+  <hr />
+  <body>
+    <main>
+      <section class="Explanation">
+        <div class="texplanation">
+          <article>
+            <p>
+              Hijacking a search engines is simple enough and only requires
+              basic knowledge of HTML and how a web URL works.
+
+              <br />
+              <br />
+
+              A web URL is a file path that is constructed in a way so that each
+              link references a file within a folder. So when you click a link
+              and a different webpage opens up that is because the link is
+              referencing that file on the server.
+
+              <br />
+              <br />
+
+              The search function can be a file or page to itself but usually
+              it's just an element within a file and can be written in the URL.
+
+              <br />
+              <br />
+
+              That is how these search engines will be Hijacked. The syntax
+              primarily is "Google.com/search" or "Reddit.com/search"
+
+              <br />
+              <br />
+
+              By placing this web address in the form action element of my HTML
+              document will start the web address. Whatever text that is typed
+              into the search bar will be amended to the form action along with
+              the "input" elements name resulting in a full search URL address
+              for the website to be able to use.
+            </p>
+          </article>
+        </div>
+
+        <hr />
+
+        <div class="picxplanation">
+          <img src="/assets/hijacker-evitar-malware.webp" alt="" />
+        </div>
+
+        <hr />
+
+        <div class="Search-Engines">
+          <div class="wrapper">
+            <br />
+
+            <div class="google">
+              <img
+                src="https://pbs.twimg.com/profile_images/1455185376876826625/s1AjSxph_400x400.jpg"
+                alt=""
+              />
+              <label for="google">Google</label>
+
+              <form action="https://www.google.com/search">
+                <input type="text" id="google" name="q" />
+                <button target="_blank" rel="noopener noreferrer">
+                  Search Google
+                </button>
+                <br />
+              </form>
+            </div>
+
+            <div class="reddit">
+              <img
+                src="https://pbs.twimg.com/profile_images/1333471260483801089/OtTAJXEZ_400x400.jpg"
+                alt=""
+              />
+              <label for="reddit">Reddit</label>
+              <form action="https://www.reddit.com/search">
+                <input type="text" id="reddit" name="q" />
+                <button>Search Reddit</button>
+                <br />
+              </form>
+            </div>
+
+            <div class="duckduckgo">
+              <img
+                src="https://duckduckgo.com/assets/icons/meta/DDG-icon_256x256.png"
+                alt=""
+              />
+              <label for="duckduckgo">DuckDuckGo</label>
+              <form action="https://www.duckduckgo.com/">
+                <input type="text" id="duckduckgo" name="q" />
+                <button>Search DuckDuckGo</button>
+                <br />
+              </form>
+            </div>
+
+            <div class="youtube">
+              <img
+                src="https://yt3.ggpht.com/584JjRp5QMuKbyduM_2k5RlXFqHJtQ0qLIPZpwbUjMJmgzZngHcam5JMuZQxyzGMV5ljwJRl0Q=s900-c-k-c0x00ffffff-no-rj"
+                alt=""
+              />
+              <label for="youtube">Youtube</label>
+              <form action="https://www.youtube.com/results">
+                <input type="text" id="youtube" name="search_query" />
+                <button>Search Youtube</button>
+              </form>
+            </div>
+
+            <div class="stackoverflow">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Stack_Overflow_icon.svg/768px-Stack_Overflow_icon.svg.png"
+                alt=""
+              />
+              <label for="stackoverflow">Stack Overflow</label>
+              <form action="https://www.stackoverflow.com/search">
+                <input type="text" id="stackoverflow" name="q" />
+                <button>Search Stack Overflow</button>
+              </form>
+            </div>
+
+            <div class="bing">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+              />
+              <label for="bing">Bing</label>
+              <form action="https://www.bing.com/search">
+                <input type="text" id="bing" name="q" />
+                <button>Search Bing</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
